@@ -3,7 +3,9 @@
 Este repositorio contiene 2 carpetas, una llamada Datos con diversos archivos .csv y otra llamada Python scripts con diversos archivos .py. A continuación, se explica cada uno de los archivos y scripts:
 
 ## Data retrieval.py
-Aquí se extraen los datos con ayuda de GraphQL del subgrafo alojado en https://testnet.thegraph.com/explorer/subgraphs/7PonLjDmPw1tRU8rDxARsk5ziWjmtcPqQFVWzXSdP1mT?view=Overview y se guardan en 2 archivos .csv: deposits.csv y withdrawals.csv. (Si desea realizar querries al grafo diríjase a: https://api.studio.thegraph.com/query/33393/proyectodegrado/0.24/graphql)
+Aquí se extraen los datos con ayuda de GraphQL del subgrafo alojado en https://testnet.thegraph.com/explorer/subgraphs/7PonLjDmPw1tRU8rDxARsk5ziWjmtcPqQFVWzXSdP1mT?view=Overview y se guardan en 2 archivos .csv: deposits.csv y withdrawals.csv. (Si desea realizar querries al grafo diríjase a: https://api.studio.thegraph.com/query/33393/proyectodegrado/0.24/graphql) 
+
+El repositorio que el almacena el código del subgrafo es: https://github.com/nfJaramillo/ProyectoDeGrado-Subgraph
 
 ## Preprocessing data 1.py y Preprocessing data 2.py
 Se transforman los datos extraídos en Data retrieval.py con ayuda de Pandas, tomando datos del receptor final del input data, generando agrupaciones por meses de las transacciones, entre otras cosas generando los demás archivos que permiten generar análisis en videos, gráficas y estadísticas.
